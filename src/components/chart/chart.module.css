@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+    text-align: center;
+    justify-content: center;
+
+}
+
+.chart {
+    margin: 0 auto !important;
+    /* text-align: center !important;
+    align-items: center;
+    justify-content: center !important; */
+}
+.doungnutchart {
+    width: 450px !important;
+    margin: 0 auto !important;
+}
+
+@media (max-width: 760px) {
+    .chart {
+        width: 90%;
+      margin: 0px !important;
+  
+    }
+  }

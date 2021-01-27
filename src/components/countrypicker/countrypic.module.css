@@ -1,0 +1,20 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.selectcountry {
+    background-color: '#e6e6e6' !important;
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+.options {
+    text-align: center !important;
+    margin: 0 auto !important;
+    justify-content: center;
+    align-items: center;
+}

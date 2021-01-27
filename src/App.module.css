@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  overflow-x: hidden !important;
+
+}
+body,
+html {
+  background-color: #e6e6e6 !important;
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 760px) {
+  .App {
+    margin: 0px 10px;
+
+  }
+}

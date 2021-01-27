@@ -1,0 +1,39 @@
+.confirmed {
+    color: rgb(255, 102, 0) !important;
+}
+
+.recovered {
+    color: rgb(51, 204, 51) !important;
+}
+.deaths {
+    color: rgb(255, 0, 0) !important;
+}
+
+
+
+.confirmedvalue {
+    color: rgb(255, 102, 0) !important;
+}
+
+.recoveredvalue {
+    color: rgb(51, 204, 51) !important;
+}
+
+.deathsvalue {
+    color: rgb(255, 0, 0) !important;
+}
+.confirmedpaper {
+    margin:  6px !important;
+    padding: 10px !important;
+    border-bottom: rgb(255, 102, 0) solid 5px !important;
+}
+.recoverdpaper {
+    margin:  6px !important;
+    padding: 10px !important;
+    border-bottom: rgb(51, 204, 51) solid 5px !important;
+}
+.deathspaper {
+    margin:  6px !important;
+    padding: 10px !important;
+    border-bottom: rgb(255, 0, 0) solid 5px !important;
+}
