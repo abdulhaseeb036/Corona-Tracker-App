@@ -17,7 +17,7 @@ function Countrypic({handleCountrychange}) {
     return (
         <FormControl className={styles.container}>
             <NativeSelect defaultValue="" onChange={(e) => handleCountrychange(e.target.value)} className={styles.selectcountry}>
-                <option className={styles.options} value="">Global</option>
+               <option className={styles.options} value="">Global</option>
                 {countryname.map((countriesname, ind) => {
                     return <option key={ind} value={countriesname}>{countriesname}</option>
                 })}

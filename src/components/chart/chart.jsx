@@ -4,7 +4,7 @@ import { Line, Doughnut } from 'react-chartjs-2';
 import styles from '../chart/chart.module.css';
 
 function Chart({ data: { confirmed, recovered, deaths }, country }) {
-    const [chartdata, setChartdata] = useState([])  //empty object krna hy
+    const [chartdata, setChartdata] = useState([])  
 
     useEffect(() => {
         async function getdailydata() {
@@ -15,7 +15,7 @@ function Chart({ data: { confirmed, recovered, deaths }, country }) {
 
 
     const linechart = (
-        chartdata    //.length lagana hy api k
+        chartdata.length   
             ? (
                 <Line
                     data={{
@@ -72,7 +72,6 @@ function Chart({ data: { confirmed, recovered, deaths }, country }) {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.charname}>chart</h1>
             <div className={styles.chart}>
                 {country ? doungnutchart : linechart}
             </div>

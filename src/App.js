@@ -8,23 +8,24 @@ function App() {
   const [data, setData] = useState({})
 
   const [country, setCountry] = useState('');
-
-
-
+  
+  ///////////////////////////////////////////
   useEffect(() => {
     async function getglobaldata() {
         const fetchingdata = await fetchdata();
         setData(fetchingdata);
-        
     }
     getglobaldata()
 }, [])
+//////////////////////////////////////////////
 
+// on country selection
 const handleCountrychange = async (country) => {
   const fetchingdata = await fetchdata(country);
   setData(fetchingdata);
   setCountry({country: country})
 }
+
 
   return (
     <div className={styles.App}>

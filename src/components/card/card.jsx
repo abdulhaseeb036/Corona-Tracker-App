@@ -16,7 +16,6 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-
 function Card({ data: { confirmed, recovered, deaths, lastUpdate }}) {
     const classes = useStyles();
 
